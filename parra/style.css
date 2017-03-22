@@ -63,25 +63,25 @@ p {
 
 .layer-bg {
 background-size: cover;
-  background-image: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/mobile/parra/img/bureau.png");
+  background-image: url("./img/bureau.png");
 }
 
 
 
 .layer-2 {
 overflow: hidden;
-  background-image: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/mobile/parra/img/ilu_02.png");
+  background-image: url("./parra/img/ilu_02.png");
 }
 
 .layer-3 {
 overflow: hidden;
-  background-image: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/mobile/parra/img/stylo.png\a 		");
+  background-image: url("./img/stylo.png\a 		");
   background-position: left bottom;
 }
 
 .layer-overlay {
 
-  background-image: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/mobile/parra/img/ilu_o.png\a 		");
+  background-image: url("./img/ilu_o.png\a 		");
 }
 
 @media only screen and (max-width: 768px) {
