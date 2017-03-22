@@ -1,0 +1,95 @@
+body {
+
+  padding: 0;
+  margin: 0;
+  background-color: #130d0a;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+
+#titre{
+  position: center
+  width:20px;
+  height: 120px;
+
+}
+#hero {
+
+  position: relative;
+}
+
+#content {
+
+  background-color: #130d0a;
+}
+
+.layer {
+
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  z-index: -1;
+}
+
+
+
+.first-section {
+  padding: 50px 0 20px 0;
+}
+
+.text-header {
+  font-size: 50px;
+  text-align: center;
+}
+
+h1 {
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #ede0d5;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#hero, .layer {
+  overflow: hidden;
+  min-height: 800px;
+}
+
+.layer-bg {
+background-size: cover;
+  background-image: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/mobile/parra/img/bureau.png");
+}
+
+
+
+.layer-2 {
+overflow: hidden;
+  background-image: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/mobile/parra/img/ilu_02.png");
+}
+
+.layer-3 {
+overflow: hidden;
+  background-image: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/mobile/parra/img/stylo.png\a 		");
+  background-position: left bottom;
+}
+
+.layer-overlay {
+
+  background-image: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/mobile/parra/img/ilu_o.png\a 		");
+}
+
+@media only screen and (max-width: 768px) {
+  #hero {
+    display: none;
+  }
+
+  #hero-mobile {
+    display: block;
+  }
+}
